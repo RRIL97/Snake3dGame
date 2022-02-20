@@ -1,0 +1,162 @@
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLFW\CMAKEFILES\4DFA3FC4AF15B67718E908412F5DD864\GLFW-DOWNLOAD-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coder/Desktop/LastProject/cmake/../external/glfw
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coder/Desktop/LastProject/build/glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/glfw-download-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/glfw-download-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/glfw-download-prefix/src/glfw-download-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/glfw-download-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/glfw-download-prefix/src/glfw-download-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/glfw-download-prefix/src/glfw-download-stamp/Debug/glfw-download-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLFW\CMAKEFILES\4DFA3FC4AF15B67718E908412F5DD864\GLFW-DOWNLOAD-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Coder\Desktop\LastProject\external
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/glfw-download-prefix/tmp/glfw-download-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/glfw-download-prefix/src/glfw-download-stamp/Debug/glfw-download-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLFW\CMAKEFILES\4DFA3FC4AF15B67718E908412F5DD864\GLFW-DOWNLOAD-UPDATE.RULE
+setlocal
+cd C:\Users\Coder\Desktop\LastProject\external\glfw
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/glfw-download-prefix/tmp/glfw-download-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLFW\CMAKEFILES\4DFA3FC4AF15B67718E908412F5DD864\GLFW-DOWNLOAD-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/glfw-download-prefix/src/glfw-download-stamp/Debug/glfw-download-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLFW\CMAKEFILES\4DFA3FC4AF15B67718E908412F5DD864\GLFW-DOWNLOAD-CONFIGURE.RULE
+setlocal
+cd C:\Users\Coder\Desktop\LastProject\build\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/glfw-download-prefix/src/glfw-download-stamp/Debug/glfw-download-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLFW\CMAKEFILES\4DFA3FC4AF15B67718E908412F5DD864\GLFW-DOWNLOAD-BUILD.RULE
+setlocal
+cd C:\Users\Coder\Desktop\LastProject\build\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/glfw-download-prefix/src/glfw-download-stamp/Debug/glfw-download-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLFW\CMAKEFILES\4DFA3FC4AF15B67718E908412F5DD864\GLFW-DOWNLOAD-INSTALL.RULE
+setlocal
+cd C:\Users\Coder\Desktop\LastProject\build\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/glfw-download-prefix/src/glfw-download-stamp/Debug/glfw-download-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLFW\CMAKEFILES\4DFA3FC4AF15B67718E908412F5DD864\GLFW-DOWNLOAD-TEST.RULE
+setlocal
+cd C:\Users\Coder\Desktop\LastProject\build\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/glfw-download-prefix/src/glfw-download-stamp/Debug/glfw-download-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLFW\CMAKEFILES\AA612FC10815EE26ED2213B0AC0EDFE7\GLFW-DOWNLOAD-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/CMakeFiles/Debug/glfw-download-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/glfw-download-prefix/src/glfw-download-stamp/Debug/glfw-download-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLFW\CMAKEFILES\13DC4D4DE60D91623105002131E31E41\GLFW-DOWNLOAD.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLFW\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Coder/Desktop/LastProject/external/.cache/glfw -BC:/Users/Coder/Desktop/LastProject/external/.cache/glfw --check-stamp-file C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

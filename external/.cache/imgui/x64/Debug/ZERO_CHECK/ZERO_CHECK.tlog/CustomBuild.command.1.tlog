@@ -1,0 +1,10 @@
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\388B4E0844416631DD5F1A7C54315D31\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Coder/Desktop/LastProject/external/.cache/imgui -BC:/Users/Coder/Desktop/LastProject/external/.cache/imgui --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Coder/Desktop/LastProject/external/.cache/imgui/imgui-download.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

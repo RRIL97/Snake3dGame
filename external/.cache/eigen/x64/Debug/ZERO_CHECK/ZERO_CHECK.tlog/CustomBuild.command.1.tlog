@@ -1,0 +1,10 @@
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\EIGEN\CMAKEFILES\89E6BBF95B6BA3AED7B9232EFFE2D48C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Coder/Desktop/LastProject/external/.cache/eigen -BC:/Users/Coder/Desktop/LastProject/external/.cache/eigen --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Coder/Desktop/LastProject/external/.cache/eigen/eigen-download.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

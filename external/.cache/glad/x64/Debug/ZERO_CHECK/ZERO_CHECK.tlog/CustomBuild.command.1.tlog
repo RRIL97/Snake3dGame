@@ -1,0 +1,10 @@
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLAD\CMAKEFILES\AE6FAE52BB680680AACDBC08CF7CF2C9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Coder/Desktop/LastProject/external/.cache/glad -BC:/Users/Coder/Desktop/LastProject/external/.cache/glad --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Coder/Desktop/LastProject/external/.cache/glad/glad-download.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

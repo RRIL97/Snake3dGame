@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glad/CMakeFiles/glad-download"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glad/CMakeFiles/ae6fae52bb680680aacdbc08cf7cf2c9/glad-download.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glad/CMakeFiles/67717c37c13911495aed9a299dc17558/glad-download-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glad/CMakeFiles/88c828a509cf5608ea6bc8a91210d36e/glad-download-build.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glad/CMakeFiles/88c828a509cf5608ea6bc8a91210d36e/glad-download-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glad/CMakeFiles/88c828a509cf5608ea6bc8a91210d36e/glad-download-download.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glad/CMakeFiles/88c828a509cf5608ea6bc8a91210d36e/glad-download-install.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glad/CMakeFiles/88c828a509cf5608ea6bc8a91210d36e/glad-download-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glad/CMakeFiles/88c828a509cf5608ea6bc8a91210d36e/glad-download-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glad/CMakeFiles/88c828a509cf5608ea6bc8a91210d36e/glad-download-test.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glad/CMakeFiles/88c828a509cf5608ea6bc8a91210d36e/glad-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glad-download"
+		],
+		"name" : "glad-download"
+	}
+}

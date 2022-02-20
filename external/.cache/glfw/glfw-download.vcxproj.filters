@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\glfw\CMakeFiles\4dfa3fc4af15b67718e908412f5dd864\glfw-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\glfw\CMakeFiles\4dfa3fc4af15b67718e908412f5dd864\glfw-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\glfw\CMakeFiles\4dfa3fc4af15b67718e908412f5dd864\glfw-download-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\glfw\CMakeFiles\4dfa3fc4af15b67718e908412f5dd864\glfw-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\glfw\CMakeFiles\4dfa3fc4af15b67718e908412f5dd864\glfw-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\glfw\CMakeFiles\4dfa3fc4af15b67718e908412f5dd864\glfw-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\glfw\CMakeFiles\4dfa3fc4af15b67718e908412f5dd864\glfw-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\glfw\CMakeFiles\4dfa3fc4af15b67718e908412f5dd864\glfw-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\glfw\CMakeFiles\aa612fc10815ee26ed2213b0ac0edfe7\glfw-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\glfw\CMakeFiles\13dc4d4de60d91623105002131e31e41\glfw-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\glfw\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Coder\Desktop\LastProject\external\.cache\glfw\CMakeFiles\glfw-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{01751757-BCAE-3F6A-99B4-AB87D5D1DD03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

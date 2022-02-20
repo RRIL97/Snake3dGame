@@ -1,0 +1,14 @@
+# Target labels
+ stb-download
+# Source files and their labels
+C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/stb-download
+C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/0e4e924fd6b82a64a7373f81477f6ec8/stb-download.rule
+C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/5ebb04a1e4693314bf7654b4e3807be2/stb-download-complete.rule
+C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/573cc715624b7fc4053bd89c43f88dd7/stb-download-build.rule
+C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/573cc715624b7fc4053bd89c43f88dd7/stb-download-configure.rule
+C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/573cc715624b7fc4053bd89c43f88dd7/stb-download-download.rule
+C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/573cc715624b7fc4053bd89c43f88dd7/stb-download-install.rule
+C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/573cc715624b7fc4053bd89c43f88dd7/stb-download-mkdir.rule
+C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/573cc715624b7fc4053bd89c43f88dd7/stb-download-patch.rule
+C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/573cc715624b7fc4053bd89c43f88dd7/stb-download-test.rule
+C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/573cc715624b7fc4053bd89c43f88dd7/stb-download-update.rule

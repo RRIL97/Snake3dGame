@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/imgui/CMakeFiles/imgui-download"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/imgui/CMakeFiles/388b4e0844416631dd5f1a7c54315d31/imgui-download.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/imgui/CMakeFiles/b3aca54198755a3087e52b9a2c8aec40/imgui-download-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/imgui/CMakeFiles/f3398a6628ec2200915d2b8a3c30d9cf/imgui-download-build.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/imgui/CMakeFiles/f3398a6628ec2200915d2b8a3c30d9cf/imgui-download-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/imgui/CMakeFiles/f3398a6628ec2200915d2b8a3c30d9cf/imgui-download-download.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/imgui/CMakeFiles/f3398a6628ec2200915d2b8a3c30d9cf/imgui-download-install.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/imgui/CMakeFiles/f3398a6628ec2200915d2b8a3c30d9cf/imgui-download-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/imgui/CMakeFiles/f3398a6628ec2200915d2b8a3c30d9cf/imgui-download-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/imgui/CMakeFiles/f3398a6628ec2200915d2b8a3c30d9cf/imgui-download-test.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/imgui/CMakeFiles/f3398a6628ec2200915d2b8a3c30d9cf/imgui-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imgui-download"
+		],
+		"name" : "imgui-download"
+	}
+}

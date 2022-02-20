@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/CMakeFiles/glfw-download"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/CMakeFiles/13dc4d4de60d91623105002131e31e41/glfw-download.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/CMakeFiles/aa612fc10815ee26ed2213b0ac0edfe7/glfw-download-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/CMakeFiles/4dfa3fc4af15b67718e908412f5dd864/glfw-download-build.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/CMakeFiles/4dfa3fc4af15b67718e908412f5dd864/glfw-download-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/CMakeFiles/4dfa3fc4af15b67718e908412f5dd864/glfw-download-download.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/CMakeFiles/4dfa3fc4af15b67718e908412f5dd864/glfw-download-install.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/CMakeFiles/4dfa3fc4af15b67718e908412f5dd864/glfw-download-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/CMakeFiles/4dfa3fc4af15b67718e908412f5dd864/glfw-download-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/CMakeFiles/4dfa3fc4af15b67718e908412f5dd864/glfw-download-test.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/CMakeFiles/4dfa3fc4af15b67718e908412f5dd864/glfw-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glfw-download"
+		],
+		"name" : "glfw-download"
+	}
+}

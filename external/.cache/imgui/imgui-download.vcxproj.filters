@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\imgui\CMakeFiles\f3398a6628ec2200915d2b8a3c30d9cf\imgui-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\imgui\CMakeFiles\f3398a6628ec2200915d2b8a3c30d9cf\imgui-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\imgui\CMakeFiles\f3398a6628ec2200915d2b8a3c30d9cf\imgui-download-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\imgui\CMakeFiles\f3398a6628ec2200915d2b8a3c30d9cf\imgui-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\imgui\CMakeFiles\f3398a6628ec2200915d2b8a3c30d9cf\imgui-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\imgui\CMakeFiles\f3398a6628ec2200915d2b8a3c30d9cf\imgui-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\imgui\CMakeFiles\f3398a6628ec2200915d2b8a3c30d9cf\imgui-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\imgui\CMakeFiles\f3398a6628ec2200915d2b8a3c30d9cf\imgui-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\imgui\CMakeFiles\b3aca54198755a3087e52b9a2c8aec40\imgui-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\imgui\CMakeFiles\388b4e0844416631dd5f1a7c54315d31\imgui-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Coder\Desktop\LastProject\external\.cache\imgui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Coder\Desktop\LastProject\external\.cache\imgui\CMakeFiles\imgui-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{529C5114-864E-3204-8A98-6EB467D26E2C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

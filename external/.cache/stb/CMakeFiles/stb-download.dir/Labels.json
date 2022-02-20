@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/stb-download"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/0e4e924fd6b82a64a7373f81477f6ec8/stb-download.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/5ebb04a1e4693314bf7654b4e3807be2/stb-download-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/573cc715624b7fc4053bd89c43f88dd7/stb-download-build.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/573cc715624b7fc4053bd89c43f88dd7/stb-download-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/573cc715624b7fc4053bd89c43f88dd7/stb-download-download.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/573cc715624b7fc4053bd89c43f88dd7/stb-download-install.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/573cc715624b7fc4053bd89c43f88dd7/stb-download-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/573cc715624b7fc4053bd89c43f88dd7/stb-download-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/573cc715624b7fc4053bd89c43f88dd7/stb-download-test.rule"
+		},
+		{
+			"file" : "C:/Users/Coder/Desktop/LastProject/external/.cache/stb/CMakeFiles/573cc715624b7fc4053bd89c43f88dd7/stb-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"stb-download"
+		],
+		"name" : "stb-download"
+	}
+}

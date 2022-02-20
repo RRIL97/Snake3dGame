@@ -1,0 +1,162 @@
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLAD\CMAKEFILES\88C828A509CF5608EA6BC8A91210D36E\GLAD-DOWNLOAD-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coder/Desktop/LastProject/cmake/../external/glad
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coder/Desktop/LastProject/build/glad-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coder/Desktop/LastProject/external/.cache/glad/glad-download-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coder/Desktop/LastProject/external/.cache/glad/glad-download-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coder/Desktop/LastProject/external/.cache/glad/glad-download-prefix/src/glad-download-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coder/Desktop/LastProject/external/.cache/glad/glad-download-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coder/Desktop/LastProject/external/.cache/glad/glad-download-prefix/src/glad-download-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glad/glad-download-prefix/src/glad-download-stamp/Debug/glad-download-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLAD\CMAKEFILES\88C828A509CF5608EA6BC8A91210D36E\GLAD-DOWNLOAD-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Coder\Desktop\LastProject\external
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Coder/Desktop/LastProject/external/.cache/glad/glad-download-prefix/tmp/glad-download-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glad/glad-download-prefix/src/glad-download-stamp/Debug/glad-download-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLAD\CMAKEFILES\88C828A509CF5608EA6BC8A91210D36E\GLAD-DOWNLOAD-UPDATE.RULE
+setlocal
+cd C:\Users\Coder\Desktop\LastProject\external\glad
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Coder/Desktop/LastProject/external/.cache/glad/glad-download-prefix/tmp/glad-download-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLAD\CMAKEFILES\88C828A509CF5608EA6BC8A91210D36E\GLAD-DOWNLOAD-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glad/glad-download-prefix/src/glad-download-stamp/Debug/glad-download-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLAD\CMAKEFILES\88C828A509CF5608EA6BC8A91210D36E\GLAD-DOWNLOAD-CONFIGURE.RULE
+setlocal
+cd C:\Users\Coder\Desktop\LastProject\build\glad-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glad/glad-download-prefix/src/glad-download-stamp/Debug/glad-download-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLAD\CMAKEFILES\88C828A509CF5608EA6BC8A91210D36E\GLAD-DOWNLOAD-BUILD.RULE
+setlocal
+cd C:\Users\Coder\Desktop\LastProject\build\glad-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glad/glad-download-prefix/src/glad-download-stamp/Debug/glad-download-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLAD\CMAKEFILES\88C828A509CF5608EA6BC8A91210D36E\GLAD-DOWNLOAD-INSTALL.RULE
+setlocal
+cd C:\Users\Coder\Desktop\LastProject\build\glad-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glad/glad-download-prefix/src/glad-download-stamp/Debug/glad-download-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLAD\CMAKEFILES\88C828A509CF5608EA6BC8A91210D36E\GLAD-DOWNLOAD-TEST.RULE
+setlocal
+cd C:\Users\Coder\Desktop\LastProject\build\glad-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glad/glad-download-prefix/src/glad-download-stamp/Debug/glad-download-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLAD\CMAKEFILES\67717C37C13911495AED9A299DC17558\GLAD-DOWNLOAD-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Coder/Desktop/LastProject/external/.cache/glad/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glad/CMakeFiles/Debug/glad-download-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Coder/Desktop/LastProject/external/.cache/glad/glad-download-prefix/src/glad-download-stamp/Debug/glad-download-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLAD\CMAKEFILES\AE6FAE52BB680680AACDBC08CF7CF2C9\GLAD-DOWNLOAD.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CODER\DESKTOP\LASTPROJECT\EXTERNAL\.CACHE\GLAD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Coder/Desktop/LastProject/external/.cache/glad -BC:/Users/Coder/Desktop/LastProject/external/.cache/glad --check-stamp-file C:/Users/Coder/Desktop/LastProject/external/.cache/glad/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/CMakeFiles/glfw-download.dir
+C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/CMakeFiles/ALL_BUILD.dir
+C:/Users/Coder/Desktop/LastProject/external/.cache/glfw/CMakeFiles/ZERO_CHECK.dir
