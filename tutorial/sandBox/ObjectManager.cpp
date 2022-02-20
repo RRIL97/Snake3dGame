@@ -105,7 +105,6 @@ void ObjectManager::addScoreObjects(int numOfScoreObjects) {
 void ObjectManager::addScoreObject() {
 	int spawnIndex = addObject("C:\\Users\\sabin\\Downloads\\EngineForAnimationCourse\\tutorial\\data\\sphere.obj", "C:\\Users\\sabin\\Downloads\\EngineForAnimationCourse\\tutorial\\textures\\red.png");
 	ScoreObject* scoreObject = new ScoreObject(spawnLocations[spawnIndex][0], spawnLocations[spawnIndex][1], spawnLocations[spawnIndex][2], currentMeshId, 0.0005, viewer);
-	std::cout << currentMeshId << " " << spawnLocations[spawnIndex][0] << "," << spawnLocations[spawnIndex][1] << "," << spawnLocations[spawnIndex][2] << std::endl;
 	scoreObjects.push_back(scoreObject);
 	currentMeshId++;
 }

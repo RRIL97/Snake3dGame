@@ -164,8 +164,8 @@ void Snake::initBoundingBoxesForJoints() {
 	for (int meshID = 1; meshID < numberOfJoints + 1; meshID++)
 	{
 		Eigen::Vector3d pos = vC[meshID - 1];
-		Eigen::Vector3d m = pos + Eigen::Vector3d(-0.4, -0.4, -0.4);
-		Eigen::Vector3d M = pos + Eigen::Vector3d(0.4, 0.4, 0.4);
+		Eigen::Vector3d m = pos + Eigen::Vector3d(-0.2, -0.2, -0.2);
+		Eigen::Vector3d M = pos + Eigen::Vector3d(0.2, 0.2, 0.2);
 
 		Eigen::AlignedBox<double, 3> boxForCurrentJoint;
 		boxForCurrentJoint = Eigen::AlignedBox<double, 3>(m, M);
