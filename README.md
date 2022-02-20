@@ -16,9 +16,9 @@ This is a 3D snake game with the following features:
 We utilized 3 core.camera_.. params, that includes : Camera_eye, camera_translate and camera_up. The camera_translation is the position of the camera which is also the 16th joint. The camera_eye is where the camera is looking at, we have decided to use the "direction" vector as the vector that decides which direction the camera looks at. This is the same vector that is defined upon pressing the movement buttons. (Right,left ... etc.)
 
 
-3. **Collision detection** - we started by creating an AlignedBox3d for each of the joints (Defined by m, M in the code).  In total there are 16 boxes. We applied exactly the same logic as in assignment 2 but there is a small difference : Instead of generating a tree for the snake, we simply check our 16 generated boxes against the other object tree.  (Every other object besides the snake has it's own tree that is generated upon loading)
+3.**Collision detection** - we started by creating an AlignedBox3d for each of the joints (Defined by m, M in the code).  In total there are 16 boxes. We applied exactly the same logic as in assignment 2 but there is a small difference : Instead of generating a tree for the snake, we simply check our 16 generated boxes against the other object tree.  (Every other object besides the snake has it's own tree that is generated upon loading)
 
-4. **Objects in the game** - There are 3 different type of objects in our game:
+4.**Objects in the game** - There are 3 different type of objects in our game:
  
 - **Health** - The helath object has a predefined tick that upon reaching it (modulo) changes it's location on the screen, location is also changed if the object is collided with the snake. The health object gives health to the snake(+10) and +5 money.
 
