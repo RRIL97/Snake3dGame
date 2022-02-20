@@ -22,7 +22,7 @@ We utilized 3 core.camera_.. params, that includes : Camera_eye, camera_translat
  
 - **Health** - The helath object has a predefined tick that upon reaching it (modulo) changes it's location on the screen, location is also changed if the object is collided with the snake. The health object gives health to the snake(+10) and +5 money.
 
--**Score** - The score object has a predefined tick that upon reaching it (mudlo) changes it's location on the screen, location is also change dif the object is collided with the snake. This object gives score (+10)  +5 money.
+- **Score** - The score object has a predefined tick that upon reaching it (mudlo) changes it's location on the screen, location is also change dif the object is collided with the snake. This object gives score (+10)  +5 money.
 
 - **Movable obstacles** - The movable obstacles are from the type cube.obj, They are moving according to a randomly generated **bezier curve**.  It starts by generating 4 points in the world, randomly, calculates it's curve in the same way that was taught in the class, proceeds by moving according to it. Whenever our moving obstacle reaches the 4th point it will go back to the first point and vice versa. Movable obstacles are meant to be challenging and upon collision they are decreasing health! so you must avoid them to win the game!
 
