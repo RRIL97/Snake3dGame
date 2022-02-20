@@ -18,22 +18,32 @@ We utilized 3 core.camera_.. params, that includes : Camera_eye, camera_translat
 3. **Collision detection** - we started by creating an AlignedBox3d for each of the joints (Defined by m, M in the code).  In total there are 16 boxes. We applied exactly the same logic as in assignment 2 but there is a small difference : Instead of generating a tree for the snake, we simply check our 16 generated boxes against the other object tree.  (Every other object besides the snake has it's own tree that is generated upon loading)
 
 4. **Objects in the game** - There are 3 different type of objects in our game:
- -**Health** - The helath object has a predefined tick that upon reaching it (modulo) changes it's location on the screen, location is also changed if the object is collided with the snake. The health object gives health to the snake(+10) and +5 money.
- -**Score** - The score object has a predefined tick that upon reaching it (mudlo) changes it's location on the screen, location is also change dif the object is collided with the snake. This object gives score (+10)  +5 money.
+ 
+- **Health** - The helath object has a predefined tick that upon reaching it (modulo) changes it's location on the screen, location is also changed if the object is collided with the snake. The health object gives health to the snake(+10) and +5 money.
+
+-**Score** - The score object has a predefined tick that upon reaching it (mudlo) changes it's location on the screen, location is also change dif the object is collided with the snake. This object gives score (+10)  +5 money.
+
 - **Movable obstacles** - The movable obstacles are from the type cube.obj, They are moving according to a randomly generated **bezier curve**.  It starts by generating 4 points in the world, randomly, calculates it's curve in the same way that was taught in the class, proceeds by moving according to it. Whenever our moving obstacle reaches the 4th point it will go back to the first point and vice versa. Movable obstacles are meant to be challenging and upon collision they are decreasing health! so you must avoid them to win the game!
+
 
 5.**Menu**-The game has 7 states (PLAY, PAUSED, MENU,LOST,NEXTLEVEL,STORE,WIN) - each state has it own menu. Each menu is fully interactive and allows the best user interaction that is possible. Each menu has it's own predefined purpose.
 The game starts at the **"MENU"** menu which shows the high scores,tutorial and where the player can prcoeed and play the game by pressing the play button.
+
 The **"PLAY"** menu has all the information the player needs during the game including : progress bar,health bar,total money collected at this level,total money until now ,snake speed and maximum health. It also have the option to pause the game ,start over ,go to the store or get back the the main menu . 
+
  The **PAUSED** menu appears when the user press pause during the game and its stopes all the objects movments .From the pause menu the player can continu the game,go to the store or go back to the main menu.
+ 
   The **NEXTLEVEL** menu appears when the user passes the level. The menu contains information about how much money the player collected in this level and the total amout.
   from this menu the player can continue to the next level,play again (replay the current level) or go back the main menu.
+  
   The **LOST** menu appears when the user loses the level, from this menu the player can play again (replay the current level) or go back the main menu.
+  
   The **WIN** menu appears when the user passes all the levels. The menu contains information about how much money the player collected in total.
   from this menu the player can replay the final level ,start a new game or go back the main menu.
+  
   The **STORE** menu appears when the user presses the store button.The player can buy in the store with the money he colleted in previous levels (not including the current level he is on ). In the store the player can buy - speed for the snake,refilling of health and increasing max health.
   
-  ------
+------
   Additional Points:
   
   1. Moving the objects or the snake according to **Bezier curve** - Instead of using a simple/boring "velocity vector" we have decide to generate unique curves for each moving obstacle. There are 4 points in total that are generted for each moving obstacle. With those 4 points we calculate the curve move according to it.
